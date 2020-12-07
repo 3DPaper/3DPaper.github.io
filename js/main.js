@@ -18,7 +18,7 @@ Promise.all(promises)
 	function createVis(data){
 		let allData = data;
 
-	console.log(allData);
+	//console.log(allData);
 
 	// Create visualization instances
 	let myVis = new MyVis("trend", allData[0], allData[1]);

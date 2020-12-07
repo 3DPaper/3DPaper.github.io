@@ -6,7 +6,7 @@ class AreaChart {
         this.brushName = burshName;
         this.xAxisName = xAxisName;
 
-        console.log(data)
+        //console.log(data)
         this.max = d3.max(data, function(d) { return +d;} );
         this.min = d3.min(data, function(d) { return +d;} );
         this.step = 30

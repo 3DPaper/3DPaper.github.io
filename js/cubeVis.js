@@ -69,7 +69,7 @@ function init(){
             tempVertextList.push(global.vertexList[global.faceList[i][j]][1])
             tempVertextList.push(global.vertexList[global.faceList[i][j]][2])
         }
-        console.log(tempVertextList)
+        //console.log(tempVertextList)
         var newGeo = new THREE.BufferGeometry();
         var newGeoMaterial = new THREE.MeshBasicMaterial( { color: 0xA9A9A9, side : 2, transparent: true, opacity: 0.3 } );
         newGeo.setAttribute( 'position', new THREE.BufferAttribute( new Float32Array(tempVertextList), 3 ) );
@@ -85,7 +85,7 @@ function init(){
         let e = global.edgeList[i];
 
         //first vertex
-        console.log("edge", i)
+        //console.log("edge", i)
         vector1 = new THREE.Vector3(global.vertexList[global.edgeList[i][0]][0] ,global.vertexList[global.edgeList[i][0]][1], global.vertexList[global.edgeList[i][0]][2])
         vector2 = new THREE.Vector3(global.vertexList[global.edgeList[i][1]][0] ,global.vertexList[global.edgeList[i][1]][1], global.vertexList[global.edgeList[i][1]][2])
 
@@ -101,7 +101,7 @@ function init(){
 
 
     }
-    console.log(scene)
+    //console.log(scene)
 
 }
 function animate(){
@@ -135,12 +135,12 @@ function onClick( event ) {
 
     raycaster.setFromCamera( mouse, camera );
     const intersects = raycaster.intersectObjects(group.children, true);
-    console.log(intersects)
+    //console.log(intersects)
 
     if ( intersects.length > 0 ) {
         var uuid = intersects[0].object.uuid;
         if (uuid in edges) {
-            console.log(intersects[0]);
+            //console.log(intersects[0]);
             if (edges[uuid].selected) {
                 intersects[0].object.material = edgeMaterial;
             } else {

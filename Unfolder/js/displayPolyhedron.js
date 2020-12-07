@@ -3,11 +3,11 @@
 async function displayPolyhedron() {
 
     polyhedron = global
-    console.log(global)
+    //console.log(global)
     polyhedron.vertex = global.vertexList
     polyhedron.face = global.faceList
     polyhedron.edge = global.edgeList
-    console.log(global.vertex.length)
+    //console.log(global.vertex.length)
 
     var liveUnfoldMode = true
 

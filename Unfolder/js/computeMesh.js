@@ -114,7 +114,7 @@ var faceArea = function(pt1,pt2,pt3){ // abc are points
 
 function computeMesh(vList,fList) {
 
-	console.log("Compute Mesh!")
+	//console.log("Compute Mesh!")
 	//console.log(global.vertices.length)
 	//console.log(global.faces.length)
 	//console.log(global)
@@ -228,7 +228,7 @@ function computeMesh(vList,fList) {
 	//
 	// Visit each faces and compute, edgeList faceCenterList, faceNormalList,
 	//
-	console.log(faceList)
+	//console.log(faceList)
 	for (i = 0; i < faceList.length; i++) {
 
 		// add edge
@@ -299,7 +299,7 @@ function computeMesh(vList,fList) {
 	}
 
 
-	console.log('edgeList_Unique')
+	//console.log('edgeList_Unique')
 	//console.log(edgeList_Unique)
 
 	edgeList = edgeList.sort(function(a,b){return a[1] - b[1];});
@@ -321,7 +321,7 @@ function computeMesh(vList,fList) {
 	global.faceAreaList = faceAreaList;
 	global.faceMinAngleList = faceMinAngleList;
 
-	console.log(global)
+	//console.log(global)
 	/*
     global.sequenceList = sequenceList;
     global.edgeVectorList = edgeVectorList;

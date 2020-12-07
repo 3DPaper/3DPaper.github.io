@@ -12,7 +12,6 @@
 
 <body>
 <div class="container-fluid">
-    <input type="file" style = "display: none" id="file" onchange="loadNewModel()">
 
     <!-- header -->
     <div class="row justify-content-center">
@@ -39,9 +38,6 @@
             <button type="button" class="btn btn-dark align-self-center" onclick = reset()>Reset All Edges</button>
             <button type="button" class="btn btn-dark align-self-center" onclick = cutPatten()>Download Cut Pattern</button>
 
-            <!--<img src="data/img/sphere.PNG" align = "right" alt="Italian Trulli" width="50" height="50">
-            <img src="data/img/sphere.PNG" class=" align-self-center" align = "right" alt="sphereShape" width="50" height="50"> -->
-
         </div>
         <div class="align-self-center">
             <div class="user-control">
@@ -65,7 +61,8 @@
                 <div class="col" style="border: thin grey; border-radius: 5px; background: rgba(0,0,0,0)">
 
                     <p style=" text-align: center; vertical-align: middle;" >
-                        <img src="data/img/3D-paper-logo-icon.png" align = "center" alt="3Dlogo" height="50"><br>
+                        <a href="https://3dpaper.github.io/"><img src="data/img/3D-paper-logo-icon.png" align = "center" alt="3Dlogo" height="50"><br></a>
+
                         <strong>3D Paper</strong></p>
                 </div>
             </div>
@@ -78,11 +75,6 @@
                 </div>
             </div>
             <div class="row justify-content-center" style="height: 70%; background: white; padding-left: 1vh; padding-bottom: 1vh; padding-right: 1vh; padding-top: 0vh">
-                <!--
-                <div id="scatterDiv" class="align-self-center" style="height: 100%; width:100%; border: thin solid grey; border-radius: 5px; background: rgba(64,64,64,0.4)">
-                    <div id="chartVis" style="height: 100%; width:100%; border: thin solid grey; border-radius: 5px; background: rgba(64,64,64,0.4);"></div>
-                </div>
-                -->
                 Data inspection
                 <div id="chartVis" style="height: 80%; width:100%; border: thin solid grey; border-width: 0px; border-radius: 5px; background: rgba(0,0,0,0);"></div>
             </div>
@@ -131,8 +123,6 @@
 <script type = "text/javascript" src = "js/OBJLoader.js"></script>
 <script type = "text/javascript" src = "js/ReadFile.js"></script>
 <script type = "text/javascript" src = "js/main.js"></script>
-
-
 
 </body>
 

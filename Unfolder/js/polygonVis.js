@@ -17,7 +17,7 @@ class polygonVis{
 
         let vis = this
 
-        console.log(document.getElementById(vis.parentElement))
+        //console.log(document.getElementById(vis.parentElement))
         //vis.width = $("#" + matrix.parentElement).width();
 
         vis.scene = new THREE.Scene();

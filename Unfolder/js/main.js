@@ -21,7 +21,7 @@ global.faces = [[1,2,3],[4,5,6],[8,5,7],[9,10,1],[9,11,10],[12,4,13],[14,1,15],[
 
 computeMesh(global.vertices,global.faces)
 initThreeView()
-console.log(global)
+//console.log(global)
 areachart = new AreaChart("chartVis", global.faceAreaList, 'brush_1', "Face Area");
 areachart2 = new AreaChart("chartVis", global.edgeAngles,'brush_2', "Angle Between Faces");
 areachart3 = new AreaChart("chartVis", global.faceMinAngleList,'brush_3', "Minimum Face Angle");
@@ -38,24 +38,24 @@ function visualize(){
 
 function brushed() {
 
-    console.log("burshed!")
+    //console.log("burshed!")
     // TO-DO: React to 'brushed' event
     // Get the extent of the current brush
     let selectionRange_1 = d3.brushSelection(d3.select(".brush_1").node());
-    console.log(selectionRange_1)
+    //console.log(selectionRange_1)
 
     let selectionRange_2 = d3.brushSelection(d3.select(".brush_2").node());
-    console.log(selectionRange_2)
+    //console.log(selectionRange_2)
 
     let selectionRange_3 = d3.brushSelection(d3.select(".brush_3").node());
-    console.log(selectionRange_3)
+    //console.log(selectionRange_3)
 }
 function clickInput(){
 
-    console.log("click")
+    //console.log("click")
     document.getElementById("file").click()
     var input = document.getElementById("file");
-    console.log(input)
+    //console.log(input)
     input.click()
     //event.preventDefault();
     // Trigger the button element with a click
