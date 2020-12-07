@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Unfold</title>
+
+</head>
+
+<body>
+<div class="container-fluid">
+
+    <!-- header -->
+    <div class="row justify-content-center">
+        <div class="align-self-center">
+            <h1></h1>
+        </div>
+    </div>
+
+    <!-- drop down menu -->
+    <div class="row justify-content-center">
+        <div class="align-self-center">
+            <div class="user-control">
+                <div class="form-group">
+                    <br>
+                    <p>
+                        This application allows architects, designers, hobbiest to make paper folded models. You can upload your file here and upload here by clicking the model. If you don't have test files, check this application with this sample files.
+                    </p>
+                    <br><button type="button" onclick = "document.getElementById('file').click()">upload your design!</button>
+                    <br>
+                    <br>
+                    <img src="data/img/sphere.png" alt="Italian Trulli" width="50" height="50">
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Visualizations -->
+    <!-- CONTENT -->
+    <div class="row" style="height: 70vh; background: white; padding: 0; margin-right: 1vh;">
+        <!-- RIGHT -->
+        <div class="col-3" style="background: white;">
+            <div class="row" style="height: 10%; background: white; padding-left: 1vh; padding-bottom: 1vh; padding-right: 1vh; padding-top: 1vh">
+                <div class="col" style="border: thin solid grey; border-radius: 5px; background: rgba(64,64,64,0.4)">
+                    <div class="row" style="height: 100%">
+                        <div class="col-3">
+                            <div class="row " style="height: 80%">
+                                <button class="btn btn-dark " type="button" onclick="switchView()">Reset All</button>
+                                <!--<button class="btn btn-dark " type="button" onclick="switchView()">reset Model</button>-->
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+                            <div class="row " style="height: 80%">
+                                <button class="btn btn-dark " type="button" onclick="switchView()">Auto-Unfold</button>
+                                <!--<button class="btn btn-dark " type="button" onclick="switchView()">reset Model</button>-->
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="row justify-content-center" style="height: 100%">
+                                <select id='categorySelector' class="custom-select align-self-center" style="width: 70%" onchange="categoryChange()">
+                                    <option value="absCases" selected>Cases (absolute)</option>
+                                    <option value="absDeaths">Deaths (absolute)</option>
+                                    <option value="relCases">Cases (relative to population)</option>
+                                    <option value="relDeaths">Deaths (relative to population)</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="height: 20%; background: white; padding-left: 1vh; padding-bottom: 1vh; padding-right: 1vh; padding-top: 1vh">
+                <div class="col" style="border: thin solid grey; border-radius: 5px; background: rgba(64,64,64,0.4)">
+                    <p>here is text</p>
+                </div>
+            </div>
+            <div class="row justify-content-center" style="height: 70%; background: white; padding-left: 1vh; padding-bottom: 1vh; padding-right: 1vh; padding-top: 0vh">
+                <!--
+                <div id="scatterDiv" class="align-self-center" style="height: 100%; width:100%; border: thin solid grey; border-radius: 5px; background: rgba(64,64,64,0.4)">
+                    <div id="chartVis" style="height: 100%; width:100%; border: thin solid grey; border-radius: 5px; background: rgba(64,64,64,0.4);"></div>
+                </div>
+                -->
+                <div id="chartVis" style="height: 100%; width:100%; border: thin solid grey; border-radius: 5px; background: rgba(64,64,64,0.4);"></div>
+            </div>
+        </div>
+
+        <!-- LEFT -->
+        <div class="col-9" class="col-3" style="margin-top: 1vh; margin-bottom: 1vh; border: solid black; border-width: 2px;border-radius: 5px; background: rgba(0,0,0,1)">
+             <div class="row" style="height: 100%; background: white; padding-left: 1vh; padding-bottom: 1vh; padding-right: 1vh; padding-top: 1vh">
+                 <div id="polygonVis" style="height: 100%; width: 100%;"></div>
+             </div>
+        </div>
+
+    </div>
+    <br>
+    *Unfolding algorithm have been developed under Final project of MIT 6.849 Geometrical Folding Class with Eyal Perry taught by Prof.Erik Demaine.
+</div>
+
+
+<!-- Load CSS libraries -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- d3 -->
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<!-- d3 -->
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<script src="https://d3js.org/d3-geo.v1.min.js"></script>
+<script type = "text/javascript" src = "js/areaChart.js"></script>
+<!-- Three js -->
+
+
+<script type = "text/javascript" src = "js/three.min.js"></script>
+<script type = "text/javascript" src = "js/MTLLoader.js"></script>
+<script type = "text/javascript" src = "js/computeMesh.js"></script>
+<script type = "text/javascript" src = "js/OrbitControls.js"></script>
+<script type = "text/javascript" src = "js/polygonVis.js"></script>
+<script type = "text/javascript" src = "js/materials.js"></script>
+<script type = "text/javascript" src = "js/displayPolyhedron.js"></script>
+<script type = "text/javascript" src = "js/threeVis.js"></script>
+<script type = "text/javascript" src = "js/OBJLoader.js"></script>
+<script type = "text/javascript" src = "js/ReadFile.js"></script>
+<script type = "text/javascript" src = "js/main.js"></script>
+
+
+
+</body>
+
+</html>

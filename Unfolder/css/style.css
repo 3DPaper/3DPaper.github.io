@@ -1,0 +1,17 @@
+canvas {
+    border: none;
+    outline: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    <!-- background-color: #f7f7f7;-->
+    text-align: center;
+}
+
+#polygonVis {
+    border-color: coral;
+    height: 71vh;
+    width: 100%;
+  }
+

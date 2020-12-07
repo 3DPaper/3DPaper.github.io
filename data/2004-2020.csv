@@ -1,0 +1,254 @@
+﻿Geographic_Region,Region,Subregion,Country_Area,GT_Score,Population_Average
+Africa,SUB-SAHARAN AFRICA,Eastern Africa,Burundi,n/a,9480.943
+Africa,SUB-SAHARAN AFRICA,Eastern Africa,Comoros,n/a,735.68275
+Africa,SUB-SAHARAN AFRICA,Eastern Africa,Djibouti,n/a,879.94625
+Africa,SUB-SAHARAN AFRICA,Eastern Africa,Eritrea,n/a,3236.257625
+Africa,SUB-SAHARAN AFRICA,Eastern Africa,Ethiopia,4,94672.03163
+Africa,SUB-SAHARAN AFRICA,Eastern Africa,Kenya,4,45020.93606
+Africa,SUB-SAHARAN AFRICA,Eastern Africa,Madagascar,21,22789.444
+Africa,SUB-SAHARAN AFRICA,Eastern Africa,Malawi,n/a,15709.17219
+Africa,SUB-SAHARAN AFRICA,Eastern Africa,Mauritius,21,1251.688563
+Africa,SUB-SAHARAN AFRICA,Eastern Africa,Mayotte,n/a,224.6718125
+Africa,SUB-SAHARAN AFRICA,Eastern Africa,Mozambique,6,25467.86106
+Africa,SUB-SAHARAN AFRICA,Eastern Africa,Réunion,35,846.0005625
+Africa,SUB-SAHARAN AFRICA,Eastern Africa,Rwanda,n/a,10758.88125
+Africa,SUB-SAHARAN AFRICA,Eastern Africa,Seychelles,n/a,93.3224375
+Africa,SUB-SAHARAN AFRICA,Eastern Africa,Somalia,n/a,12996.56719
+Africa,SUB-SAHARAN AFRICA,Eastern Africa,S. Sudan,n/a,9855.688563
+Africa,SUB-SAHARAN AFRICA,Eastern Africa,Uganda,4,35777.23388
+Africa,SUB-SAHARAN AFRICA,Eastern Africa,Tanzania,3,48273.14319
+Africa,SUB-SAHARAN AFRICA,Eastern Africa,Zambia,4,14856.88756
+Africa,SUB-SAHARAN AFRICA,Eastern Africa,Zimbabwe,5,13316.73181
+Africa,SUB-SAHARAN AFRICA,Middle Africa,Angola,8,25774.13475
+Africa,SUB-SAHARAN AFRICA,Middle Africa,Cameroon,4,21915.71994
+Africa,SUB-SAHARAN AFRICA,Middle Africa,Central African Rep.,n/a,4436.7235
+Africa,SUB-SAHARAN AFRICA,Middle Africa,Chad,n/a,13102.32719
+Africa,SUB-SAHARAN AFRICA,Middle Africa,Congo,5,4564.386
+Africa,SUB-SAHARAN AFRICA,Middle Africa,Dem. Rep. Congo,2,70937.24294
+Africa,SUB-SAHARAN AFRICA,Middle Africa,Eq. Guinea,n/a,1062.013063
+Africa,SUB-SAHARAN AFRICA,Middle Africa,Gabon,9,1792.375625
+Africa,SUB-SAHARAN AFRICA,Middle Africa,São Tomé and Principe,n/a,189.2825625
+Africa,SUB-SAHARAN AFRICA,Southern Africa,Botswana,9,2060.495125
+Africa,SUB-SAHARAN AFRICA,Southern Africa,eSwatini,n/a,1087.635125
+Africa,SUB-SAHARAN AFRICA,Southern Africa,Lesotho,6,2039.875063
+Africa,SUB-SAHARAN AFRICA,Southern Africa,Namibia,8,2223.572688
+Africa,SUB-SAHARAN AFRICA,Southern Africa,South Africa,13,53393.39063
+Africa,SUB-SAHARAN AFRICA,Western Africa,Benin,6,9938.057125
+Africa,SUB-SAHARAN AFRICA,Western Africa,Burkina Faso,2,16948.59294
+Africa,SUB-SAHARAN AFRICA,Western Africa,Cabo Verde,18,509.0381875
+Africa,SUB-SAHARAN AFRICA,Western Africa,Côte d'Ivoire,5,22027.48488
+Africa,SUB-SAHARAN AFRICA,Western Africa,Gambia,n/a,1952.00325
+Africa,SUB-SAHARAN AFRICA,Western Africa,Ghana,5,26349.92831
+Africa,SUB-SAHARAN AFRICA,Western Africa,Guinea,n/a,10906.45356
+Africa,SUB-SAHARAN AFRICA,Western Africa,Guinea-Bissau,n/a,1637.9495
+Africa,SUB-SAHARAN AFRICA,Western Africa,Liberia,n/a,4162.425375
+Africa,SUB-SAHARAN AFRICA,Western Africa,Mali,3,16322.257
+Africa,SUB-SAHARAN AFRICA,Western Africa,Mauritania,n/a,3790.446438
+Africa,SUB-SAHARAN AFRICA,Western Africa,Niger,n/a,18438.71188
+Africa,SUB-SAHARAN AFRICA,Western Africa,Nigeria,4,170624.6567
+Africa,SUB-SAHARAN AFRICA,Western Africa,Saint Helena,13,5.5808125
+Africa,SUB-SAHARAN AFRICA,Western Africa,Senegal,4,13716.01969
+Africa,SUB-SAHARAN AFRICA,Western Africa,Sierra Leone,n/a,6804.559688
+Africa,SUB-SAHARAN AFRICA,Western Africa,Togo,8,6893.44125
+Africa,NORTHERN AFRICA AND WESTERN ASIA,Northern Africa,Algeria,5,38056.869
+Africa,NORTHERN AFRICA AND WESTERN ASIA,Northern Africa,Egypt,5,88026.28663
+Africa,NORTHERN AFRICA AND WESTERN ASIA,Northern Africa,Libya,3,6317.796875
+Africa,NORTHERN AFRICA AND WESTERN ASIA,Northern Africa,Morocco,6,33559.22331
+Africa,NORTHERN AFRICA AND WESTERN ASIA,Northern Africa,Sudan,2,36936.4425
+Africa,NORTHERN AFRICA AND WESTERN ASIA,Northern Africa,Tunisia,8,10924.31006
+Africa,NORTHERN AFRICA AND WESTERN ASIA,Northern Africa,W. Sahara,n/a,508.9406875
+Asia,NORTHERN AFRICA AND WESTERN ASIA,Western Asia,Armenia,26,2924.698125
+Asia,NORTHERN AFRICA AND WESTERN ASIA,Western Asia,Azerbaijan,12,9332.143125
+Asia,NORTHERN AFRICA AND WESTERN ASIA,Western Asia,Bahrain,14,1303.574688
+Asia,NORTHERN AFRICA AND WESTERN ASIA,Western Asia,Cyprus,13,1130.703188
+Asia,NORTHERN AFRICA AND WESTERN ASIA,Western Asia,Georgia,16,4074.646063
+Asia,NORTHERN AFRICA AND WESTERN ASIA,Western Asia,Iraq,3,32954.27694
+Asia,NORTHERN AFRICA AND WESTERN ASIA,Western Asia,Israel,25,7637.088438
+Asia,NORTHERN AFRICA AND WESTERN ASIA,Western Asia,Jordan,6,8174.452563
+Asia,NORTHERN AFRICA AND WESTERN ASIA,Western Asia,Kuwait,9,3363.409438
+Asia,NORTHERN AFRICA AND WESTERN ASIA,Western Asia,Lebanon,15,5767.331313
+Asia,NORTHERN AFRICA AND WESTERN ASIA,Western Asia,Oman,12,3705.157063
+Asia,NORTHERN AFRICA AND WESTERN ASIA,Western Asia,Qatar,13,2095.115375
+Asia,NORTHERN AFRICA AND WESTERN ASIA,Western Asia,Saudi Arabia,4,29492.37475
+Asia,NORTHERN AFRICA AND WESTERN ASIA,Western Asia,Palestine,5,4304.879875
+Asia,NORTHERN AFRICA AND WESTERN ASIA,Western Asia,Syria,6,19025.96831
+Asia,NORTHERN AFRICA AND WESTERN ASIA,Western Asia,Turkey,17,75696.29038
+Asia,NORTHERN AFRICA AND WESTERN ASIA,Western Asia,United Arab Emirates,14,8344.845438
+Asia,NORTHERN AFRICA AND WESTERN ASIA,Western Asia,Yemen,2,24867.49263
+Asia,CENTRAL AND SOUTHERN ASIA,Central Asia,Kazakhstan,32,16969.70044
+Asia,CENTRAL AND SOUTHERN ASIA,Central Asia,Kyrgyzstan,38,5723.66675
+Asia,CENTRAL AND SOUTHERN ASIA,Central Asia,Tajikistan,16,8044.936188
+Asia,CENTRAL AND SOUTHERN ASIA,Central Asia,Turkmenistan,24,5346.876438
+Asia,CENTRAL AND SOUTHERN ASIA,Central Asia,Uzbekistan,27,29793.03719
+Asia,CENTRAL AND SOUTHERN ASIA,Southern Asia,Afghanistan,5,31977.77619
+Asia,CENTRAL AND SOUTHERN ASIA,Southern Asia,Bangladesh,10,151938.1391
+Asia,CENTRAL AND SOUTHERN ASIA,Southern Asia,Bhutan,21,708.117875
+Asia,CENTRAL AND SOUTHERN ASIA,Southern Asia,India,13,1269619.046
+Asia,CENTRAL AND SOUTHERN ASIA,Southern Asia,Iran,27,76376.32788
+Asia,CENTRAL AND SOUTHERN ASIA,Southern Asia,Maldives,62,417.94925
+Asia,CENTRAL AND SOUTHERN ASIA,Southern Asia,Nepal,13,27147.66431
+Asia,CENTRAL AND SOUTHERN ASIA,Southern Asia,Pakistan,9,189785.6584
+Asia,CENTRAL AND SOUTHERN ASIA,Southern Asia,Sri Lanka,42,20553.617
+Asia,EASTERN AND SOUTH-EASTERN ASIA,Eastern Asia,China,15,1387090.251
+Asia,EASTERN AND SOUTH-EASTERN ASIA,Eastern Asia,Hong Kong,36,7093.8825
+Asia,EASTERN AND SOUTH-EASTERN ASIA,Eastern Asia,Macao,40,568.8989375
+Asia,EASTERN AND SOUTH-EASTERN ASIA,Eastern Asia,Taiwan,33,23341.52994
+Asia,EASTERN AND SOUTH-EASTERN ASIA,Eastern Asia,North Korea,n/a,24863.24381
+Asia,EASTERN AND SOUTH-EASTERN ASIA,Eastern Asia,Japan,100,128004.6582
+Asia,EASTERN AND SOUTH-EASTERN ASIA,Eastern Asia,Mongolia,29,2872.743563
+Asia,EASTERN AND SOUTH-EASTERN ASIA,Eastern Asia,South Korea,25,50128.83988
+Asia,EASTERN AND SOUTH-EASTERN ASIA,South-Eastern Asia,Brunei,41,401.756
+Asia,EASTERN AND SOUTH-EASTERN ASIA,South-Eastern Asia,Cambodia,11,14943.48844
+Asia,EASTERN AND SOUTH-EASTERN ASIA,South-Eastern Asia,Indonesia,41,250051.1216
+Asia,EASTERN AND SOUTH-EASTERN ASIA,South-Eastern Asia,Lao People's Democratic Republic,n/a,6500.4265
+Asia,EASTERN AND SOUTH-EASTERN ASIA,South-Eastern Asia,Malaysia,41,29171.92356
+Asia,EASTERN AND SOUTH-EASTERN ASIA,South-Eastern Asia,Myanmar,19,51653.92919
+Asia,EASTERN AND SOUTH-EASTERN ASIA,South-Eastern Asia,Philippines,38,98023.10894
+Asia,EASTERN AND SOUTH-EASTERN ASIA,South-Eastern Asia,Singapore,35,5256.16925
+Asia,EASTERN AND SOUTH-EASTERN ASIA,South-Eastern Asia,Thailand,5,67855.68225
+Asia,EASTERN AND SOUTH-EASTERN ASIA,South-Eastern Asia,Timor-Leste,n/a,1148.958938
+Asia,EASTERN AND SOUTH-EASTERN ASIA,South-Eastern Asia,Vietnam,13,90411.10544
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Anguilla,n/a,13.818125
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Antigua and Barb.,n/a,90.4339375
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Aruba,11,103.225375
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Bahamas,9,362.7921875
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Barbados,11,283.116875
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,"Bonaire, Sint Eustatius and Saba",n/a,21.9031875
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,British Virgin Is.,n/a,27.8784375
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Cayman Is.,15,58.639125
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Cuba,53,11284.01644
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Curaçao,10,151.9120625
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Dominica,n/a,71.1245
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Dominican Rep.,10,9984.300375
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Grenada,n/a,108.141875
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Guadeloupe,35,402.2839375
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Haiti,6,10314.80888
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Jamaica,9,2850.945438
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Martinique,32,386.6041875
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Montserrat,n/a,4.9364375
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Puerto Rico,18,3398.283
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,St-Barthélemy,21,9.3919375
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,St. Kitts and Nevis,n/a,50.093875
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Saint Lucia,n/a,175.57425
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,St-Martin,n/a,36.6769375
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,St. Vin. and Gren.,8,109.0693125
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Sint Maarten,14,37.419
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Trinidad and Tobago,16,1349.01925
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,Turks and Caicos Is.,n/a,34.0951875
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Caribbean,U.S. Virgin Is.,n/a,105.7229375
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Central America,Belize,22,341.347625
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Central America,Costa Rica,24,4705.84925
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Central America,El Salvador,36,6259.388313
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Central America,Guatemala,39,15461.27956
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Central America,Honduras,24,8704.839
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Central America,Mexico,33,117807.9947
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Central America,Nicaragua,19,6026.119625
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,Central America,Panama,19,3811.121938
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,South America,Argentina,25,42005.85288
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,South America,Bolivia,49,10457.13938
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,South America,Brazil,20,199887.7362
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,South America,Chile,27,17570.94294
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,South America,Colombia,36,46531.52981
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,South America,Ecuador,30,15654.36856
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,South America,Falkland Is.,n/a,2.985375
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,South America,French Guiana,34,248.370125
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,South America,Guyana,9,760.9596875
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,South America,Paraguay,22,6472.57675
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,South America,Peru,44,29977.00113
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,South America,Suriname,7,543.79975
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,South America,Uruguay,23,3388.965375
+Latin America and the Caribbean,LATIN AMERICA AND THE CARIBBEAN,South America,Venezuela,23,28617.76119
+Oceania,AUSTRALIA/NEW ZEALAND,South America,Australia,32,22970.83544
+Oceania,AUSTRALIA/NEW ZEALAND,South America,New Zealand,34,4488.953688
+Oceania,OCEANIA,Melanesia,Fiji,20,862.08875
+Oceania,OCEANIA,Melanesia,New Caledonia,37,261.8964375
+Oceania,OCEANIA,Melanesia,Papua New Guinea,13,7710.44675
+Oceania,OCEANIA,Melanesia,Solomon Is.,n/a,569.606125
+Oceania,OCEANIA,Melanesia,Vanuatu,n/a,255.1020625
+Oceania,OCEANIA,Micronesia,Guam,40,161.6025625
+Oceania,OCEANIA,Micronesia,Kiribati,n/a,106.542625
+Oceania,OCEANIA,Micronesia,Marshall Is.,n/a,57.0511875
+Oceania,OCEANIA,Micronesia,Micronesia,n/a,107.4213125
+Oceania,OCEANIA,Micronesia,Nauru,n/a,10.234875
+Oceania,OCEANIA,Micronesia,N. Mariana Is.,55,55.563625
+Oceania,OCEANIA,Micronesia,Palau,n/a,18.2029375
+Oceania,OCEANIA,Polynesia,American Samoa,n/a,56.459125
+Oceania,OCEANIA,Polynesia,Cook Is.,n/a,18.1203125
+Oceania,OCEANIA,Polynesia,Fr. Polynesia,45,269.9175
+Oceania,OCEANIA,Polynesia,Niue,n/a,1.6244375
+Oceania,OCEANIA,Polynesia,Samoa,n/a,189.4335625
+Oceania,OCEANIA,Polynesia,Tokelau,n/a,1.2148125
+Oceania,OCEANIA,Polynesia,Tonga,n/a,102.679
+Oceania,OCEANIA,Polynesia,Tuvalu,n/a,10.8389375
+Oceania,OCEANIA,Polynesia,Wallis and Futuna Is.,n/a,12.6948125
+Europe,EUROPE,Eastern Europe,Belarus,36,9452.70725
+Europe,EUROPE,Eastern Europe,Bulgaria,22,7313.748313
+Europe,EUROPE,Eastern Europe,Czechia,21,10538.4285
+Europe,EUROPE,Eastern Europe,Hungary,24,9859.791125
+Europe,EUROPE,Eastern Europe,Poland,29,38156.91644
+Europe,EUROPE,Eastern Europe,Moldova,51,4085.044938
+Europe,EUROPE,Eastern Europe,Romania,26,20240.11513
+Europe,EUROPE,Eastern Europe,Russia,42,144400.9386
+Europe,EUROPE,Eastern Europe,Slovakia,15,5423.16675
+Europe,EUROPE,Eastern Europe,Ukraine,37,45334.69006
+Europe,EUROPE,Northern Europe,Channel Islands,n/a,162.59025
+Europe,EUROPE,Northern Europe,Denmark,10,5616.22825
+Europe,EUROPE,Northern Europe,Estonia,22,1329.385
+Europe,EUROPE,Northern Europe,Faroe Islands,n/a,48.0565625
+Europe,EUROPE,Northern Europe,Finland,13,5415.783813
+Europe,EUROPE,Northern Europe,Iceland,20,322.8673125
+Europe,EUROPE,Northern Europe,Ireland,11,4583.958125
+Europe,EUROPE,Northern Europe,Isle of Man,20,83.59125
+Europe,EUROPE,Northern Europe,Latvia,33,2061.454313
+Europe,EUROPE,Northern Europe,Lithuania,26,3029.373188
+Europe,EUROPE,Northern Europe,Norway,12,5036.089313
+Europe,EUROPE,Northern Europe,Sweden,11,9573.139125
+Europe,EUROPE,Northern Europe,United Kingdom,18,64462.22869
+Europe,EUROPE,Southern Europe,Albania,8,2940.808438
+Europe,EUROPE,Southern Europe,Andorra,30,80.3240625
+Europe,EUROPE,Southern Europe,Bosnia and Herz.,10,3553.311188
+Europe,EUROPE,Southern Europe,Croatia,17,4268.170125
+Europe,EUROPE,Southern Europe,Gibraltar,n/a,33.6174375
+Europe,EUROPE,Southern Europe,Greece,12,10795.80606
+Europe,EUROPE,Southern Europe,Holy See,n/a,0.7940625
+Europe,EUROPE,Southern Europe,Italy,19,59782.75694
+Europe,EUROPE,Southern Europe,Malta,16,423.6736875
+Europe,EUROPE,Southern Europe,Montenegro,12,624.5104375
+Europe,EUROPE,Southern Europe,Macedonia,24,2074.27325
+Europe,EUROPE,Southern Europe,Portugal,30,10441.77181
+Europe,EUROPE,Southern Europe,San Marino,22,32.0530625
+Europe,EUROPE,Southern Europe,Serbia,15,8944.337
+Europe,EUROPE,Southern Europe,Slovenia,19,2050.416188
+Europe,EUROPE,Southern Europe,Spain,20,46359.61394
+Europe,EUROPE,Western Europe,Austria,15,8575.172063
+Europe,EUROPE,Western Europe,Belgium,18,11099.31488
+Europe,EUROPE,Western Europe,France,33,63522.53013
+Europe,EUROPE,Western Europe,Germany,16,81791.46988
+Europe,EUROPE,Western Europe,Liechtenstein,n/a,36.6356875
+Europe,EUROPE,Western Europe,Luxembourg,18,538.7068125
+Europe,EUROPE,Western Europe,Monaco,n/a,36.62675
+Europe,EUROPE,Western Europe,Netherlands,11,16793.12831
+Europe,EUROPE,Western Europe,Switzerland,18,8041.32
+Northern America,NORTHERN AMERICA,Northern America,Bermuda,17,64.46875
+Northern America,NORTHERN AMERICA,Northern America,Canada,20,35040.93206
+Northern America,NORTHERN AMERICA,Northern America,Greenland,n/a,56.6331875
+Northern America,NORTHERN AMERICA,Northern America,St. Pierre and Miquelon,n/a,6.0980625
+Northern America,NORTHERN AMERICA,Northern America,United States of America,21,314313.1721
+,,,Åland,n/a,n/a
+,,,Antarctica,n/a,n/a
+,,,Ashmore and Cartier Is.,n/a,n/a
+,,,Br. Indian Ocean Ter.,n/a,n/a
+,,,Faeroe Is.,n/a,n/a
+,,,Fr. S. Antarctic Lands,n/a,n/a
+,,,Guernsey,16,n/a
+,,,Heard I. and McDonald Is.,n/a,n/a
+,,,Indian Ocean Ter.,n/a,n/a
+,,,Jersey,15,n/a
+,,,Kosovo,9,n/a
+,,,Laos,6,n/a
+,,,N. Cyprus,n/a,n/a
+,,,Norfolk Island,n/a,n/a
+,,,Pitcairn Is.,n/a,n/a
+,,,S. Geo. and the Is.,n/a,n/a
+,,,Siachen Glacier,n/a,n/a
+,,,Somaliland,n/a,n/a
