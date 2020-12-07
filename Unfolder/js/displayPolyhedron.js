@@ -234,7 +234,8 @@ async function displayPolyhedron() {
 
     tempEdgeAngleList = []
     for (edge in edges){
-        tempEdgeAngleList.push(edges[edge].angle)
+        //console.log(edges[edge].angle)
+        tempEdgeAngleList.push( edges[edge].angle * 1)
     }
     global.edgeAngles = tempEdgeAngleList
 

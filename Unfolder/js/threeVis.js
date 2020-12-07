@@ -5,6 +5,9 @@
 
 function initThreeView(){
 
+    var myobj = document.getElementById("polygonVis");
+    if(myobj.children.length > 0) myobj.children[0].remove()
+
     var polyhedron;
     var edges = {};
     var faces = {};
@@ -60,7 +63,6 @@ function initThreeView(){
     group = new THREE.Group();
     scene.add( group );
     displayPolyhedron();
-
 
     document.addEventListener( 'click', onClick, false );
 

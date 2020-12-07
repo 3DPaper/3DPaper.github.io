@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-"Hello World" 
-=======
 <!doctype html>
 <html>
 <head>
@@ -9,7 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>3D Paper - Welcome!</title>
 
-	<link href="https://fonts.googleapis.com/css?family=Neuton:300,400,400i,700,800" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,400;0,500;0,700;1,100;1,700&display=swap" rel="stylesheet">
 
 	<!-- CSS libraries -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -19,19 +17,15 @@
 </head>
 <body>
 
+	<header>
+		<span>56 ideas unfolded</span>
+	</header>
 	<div class="container">
-
-		<div class="row">
-			<div class="col-md-12" id="stats" style="border-bottom: 1px solid black;">
-				<span>56 ideas unfolded</span>
-			</div>
-		</div>
 
 
 		<div class="row">
 			<div class="col-md-12" style="text-align: center;">
 				<h1><img src="img/logo.png" alt="3D Paper logo"></h1>
-
 
 			</div>
 		</div>
@@ -39,11 +33,11 @@
 		<div class="row">
 			<div class="col-md-12" >
 				<h1 style="text-align: center;">Are you an architect with a Big Idea?</h1>
-				<h2 style="text-align: center;">Create 2D cutting pattern in seconds</h2>
-				<p style="text-align: center;">Architects and designers looking to <strong>prototype their ideas</strong> are amazed at how easy it is to use 3D Paper.<br>There is almost no learning curve!<br>
-					Develop a blueprint of 3D model for your client in a few seconds:
+				<h3 style="text-align: center;">Create 2D Cutting Pattern in seconds</h3>
+				<p style="text-align: center;">Architects and designers looking to <span class="bold">prototype their ideas</span> are amazed at how easy it is to use 3D Paper.<br>There is almost no learning curve!<br>
+					Make a cutting pattern of a 3D model for your client in a few seconds:
 				</p>
-				<p style="text-align: center;">Click three edges of the cube, and it will unfold.</p>
+				<p style="text-align: center;"><strong>Click three edges of the cube, and it will unfold.</strong></p>
 			</div>
 		</div>
 		<div class="row" style="height: 400px; background: white; padding-left: 1vh; padding-bottom: 1vh; padding-right: 1vh; padding-top: 1vh">
@@ -51,23 +45,19 @@
 				<div id="polygonVis" style="height: 100%; width: 100%;"></div>
 			</div>
 		</div>
-		<p style="text-align: center">
-			<button onclick="window.location.href='Unfolder/index.html';">Unfold</button>
-			<button onclick="window.location.href='Unfolder/index.html';">Export SVG</button>
-
-		</p>
-			<!--<div class="col-md-12" id="polygonVis" style="text-align: center; width: 100%; height: 400px; border: 3px solid #ccc;">
-			</div>-->
 
 		<div class="row">
 			<div class="col-md-12">
 				<h2 style="text-align: center;">What is 3D Paper?</h2>
-				<p>3D Paper is a free program that creates blueprints for architects and designers. It unfolds your geometry and puts you in control of the process: upload your design, select the planes, and generate a blueprint in one click.
+				<p>3D Paper is a free program that creates cutting patterns for architects and designers. It unfolds your geometry and puts you in control of the process: upload your design, select the planes, and generate a cutting pattern in one click.
 				</p>
-				<p>Unfold your 3D models into 2D blueprint in seconds, and start prototyping!</p>
-				<img src="img/placeholder-prototype.png" alt="three step process of prototyping with 3D paper">
-				<p>3D Paper prototypes don’t stop with architectural modeling:  they can have many applications, from client demos to art shows. For example, if you are an interior designer, you can impress your clients with a beautiful 3D sculpture.   It is similar to Origami, a popular art form originated in Japan, which has taken over the world.  Unlock your inner artist and create beautiful origami designs! </p>
-				<img src="img/origami-uses2.jpg" alt="">
+				<p>Unfold your 3D models into 2D cutting patterns in seconds, and start prototyping!</p>
+				<img src="img/placeholder-prototype.png" style="width: 100%;" alt="three step process of prototyping with 3D paper">
+				<p>3D Paper's cutting patterns don't stop with architectural modeling: they can have many applications, from client demos to art shows. For example, if you are an interior designer, you can impress your clients with a beautiful 3D sculpture. It is similar to Origami, a popular art form that originated in Japan, which has taken over the world. Unlock your inner artist and create beautiful origami designs! </p>
+				<img src="img/origami-uses3.jpg" alt="">
+<!--				<img src="img/origami-uses5.jpg" alt="">-->
+<!--				<img src="img/origami-uses6.jpg" alt="">-->
+<!--				<img src="img/origami-uses7.jpg" alt="">-->
 			</div>
 		</div>
 		<div class="row">
@@ -92,16 +82,12 @@
 					Are you a teacher? Print these pre-made prototypes and engage your students with the exciting art of paper folding!
 				</p>
 				<ul>
-<!-- Free and Easy to Use-->
-					<li>Free program for architects and designers.</li>
-<!-- Almost no learning curve-->
+					<li>A free program for architects and designers.</li>
 					<li>Intuitive and easy process for first-time users</li>
-					<li>Customize your 2D unfold drawing</li>
+					<li>Customize your 2D unfold drawing in seconds!</li>
 				</ul>
 
-				<p>3D Paper is a free program that unfolds your geometry and puts you in control of the process: convert 3D model into 2D drawings in seconds!
-					Upload your design and </p>
-				<p style="text-align: center"><button onclick="window.location.href='Unfolder/index.html';">Get Started!</button></p>
+				<p style="text-align: center"><button class="CTA" onclick="window.location.href='Unfolder/index.html';">Get Started!</button></p>
 
 			</div>
 		</div>
@@ -138,4 +124,3 @@
 	<script src="js/main.js"></script>
 </body>
 </html>
->>>>>>> adac6f53800a463c8f0919a9245458c0f2ee7f12

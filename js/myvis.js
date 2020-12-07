@@ -67,8 +67,10 @@ class MyVis {
 		vis.svg.append("path")
 		    .datum({type: "Sphere"})
 		    .attr("class", "graticule")
-		    .attr('fill', '#ADDEFF')
-		    .attr("stroke","rgba(129,129,129,0.35)")
+		    .attr('fill', '#fff')
+			.attr("width", vis.width)
+			.attr("height", vis.height)
+		    // .attr("stroke","rgba(129,129,129,0.35)")
 		    .attr("d", vis.path);
 
 
@@ -78,6 +80,8 @@ class MyVis {
 			.enter().append("path")
 			.attr('class', 'country')
 			.attr("d", vis.path)
+			.attr('stroke-width', '1px')
+			.attr('stroke', '#cccccc')
 
 
 		// Tooltip
@@ -91,7 +95,7 @@ class MyVis {
 		// Legend
 		vis.legend = vis.svg.append("g")
 			.attr('class', 'legend')
-			.attr('transform', `translate(${(vis.width/2)-100}, ${vis.height - 10})`)
+			.attr('transform', `translate(${20}, ${vis.height - 50})`)
 
 		vis.legend.selectAll()
 			.data(vis.colors)

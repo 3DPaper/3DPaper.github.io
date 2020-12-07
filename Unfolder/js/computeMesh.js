@@ -284,7 +284,7 @@ function computeMesh(vList,fList) {
 
 						//faceFoldAngleList.push()
 
-						var angle = Math.PI - getAngle(faceNormalList[i], faceNormalList[k])
+						var angle =  Math.PI - getAngle(faceNormalList[i], faceNormalList[k])
 						tempFAList.push(angle);
 						break;
 					}

@@ -1,10 +1,12 @@
 class AreaChart {
 
-    constructor(parentElement, data , burshName) {
+    constructor(parentElement, data , burshName , xAxisName) {
         this.parentElement = parentElement;
         this.data = data;
         this.brushName = burshName;
+        this.xAxisName = xAxisName;
 
+        console.log(data)
         this.max = d3.max(data, function(d) { return +d;} );
         this.min = d3.min(data, function(d) { return +d;} );
         this.step = 30
@@ -14,14 +16,13 @@ class AreaChart {
         for(var i = 0; i<this.step;i++){
             var temp = {}
             temp["key"] = i
-            temp["x_value"] = i * this.gap
+            temp["x_value"] = this.min + i * this.gap
             temp['value'] = 0
             this.hisData.push(temp)
         }
 
         for(var i = 0; i<this.data.length;i++){
             var group =  Math.floor((this.data[i] - this.min) / this.gap)
-            console.log(group)
             this.hisData[group].value +=1
         }
 
@@ -34,7 +35,7 @@ class AreaChart {
         let vis = this;
 
         // * TO-DO *
-        vis.margin = {top: 20, right: 40, bottom: 30, left: 40};
+        vis.margin = {top: 20, right: 40, bottom: 33, left: 40};
 
         vis.width = $('#' + vis.parentElement).width() - vis.margin.left - vis.margin.right;
         vis.height = ($('#' + vis.parentElement).height() - vis.margin.top - vis.margin.bottom)*0.25
@@ -49,7 +50,7 @@ class AreaChart {
         // Scales and axes
         vis.x = d3.scaleLinear()
             .range([0, vis.width])
-            .domain(d3.extent(vis.displayData, function(d) { return (d.x_value); }))
+            .domain(d3.extent(vis.displayData, function(d) { return (d.x_value);}))
 
         vis.y = d3.scaleLinear()
             .range([vis.height, 0])
@@ -101,10 +102,33 @@ class AreaChart {
             .attr("transform", "translate(0," + vis.height + ")")
             .call(vis.xAxis);
 
+        vis.svg.append("text")
+            .attr("class", "x-axis-text")
+            .attr("x", (vis.width) -100)
+            .attr("y", vis.height + vis.margin.bottom - 5)
+            .text(vis.xAxisName);
+
         vis.svg.append("g")
             .attr("class", "y-axis axis")
             //.attr("transform", "translate(0," + vis.height + ")")
             .call(vis.yAxis);
+
+        vis.svg.append("text")
+            .attr("x", 0)
+            .attr("y", -8)
+            //.text("Number of Edges");
+
+        /*
+        vis.yAxisGroup = vis.svg.append("g")
+            .attr("class", "y-axis axis")
+            .attr("transform", "translate(" + -5 +",0)")
+            .call(vis.yAxis)
+            .append("text")
+            .attr("class", "y-axis-text")
+            .attr("transform", "translate(0," + -5 + ")")
+            .text("count")
+
+         */
 
         // (Filter, aggregate, modify data)
         vis.wrangleData();

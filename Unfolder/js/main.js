@@ -22,9 +22,9 @@ global.faces = [[1,2,3],[4,5,6],[8,5,7],[9,10,1],[9,11,10],[12,4,13],[14,1,15],[
 computeMesh(global.vertices,global.faces)
 initThreeView()
 console.log(global)
-areachart = new AreaChart("chartVis", global.faceAreaList, 'brush_1');
-areachart2 = new AreaChart("chartVis", global.edgeAngles,'brush_2');
-areachart3 = new AreaChart("chartVis", global.faceMinAngleList,'brush_3');
+areachart = new AreaChart("chartVis", global.faceAreaList, 'brush_1', "Face Area");
+areachart2 = new AreaChart("chartVis", global.edgeAngles,'brush_2', "Angle Between Faces");
+areachart3 = new AreaChart("chartVis", global.faceMinAngleList,'brush_3', "Minimum Face Angle");
 
 function loadNewModel(){
     readFile()
@@ -49,8 +49,22 @@ function brushed() {
 
     let selectionRange_3 = d3.brushSelection(d3.select(".brush_3").node());
     console.log(selectionRange_3)
-    // Convert the extent into the corresponding domain values
-    //let selectionDomain = selectionRange.map(areachart.xScale.invert);
-    //areachart.xdomain = selectionDomain;
-    //areachart.wrangleData()
+}
+function clickInput(){
+
+    console.log("click")
+    document.getElementById("file").click()
+    var input = document.getElementById("file");
+    console.log(input)
+    input.click()
+    //event.preventDefault();
+    // Trigger the button element with a click
+    //document.getElementById("myBtn").click()
+
+}
+function reset(){
+
+    computeMesh(global.vertices,global.faces)
+    initThreeView()
+
 }
